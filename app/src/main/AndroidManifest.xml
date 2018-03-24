@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ansoft.musetimusicplayer">
+    package="com.brijesh.musicplayer">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -35,13 +35,13 @@
             android:exported="true"
             android:enabled="true"/>
 
-        <receiver android:name="com.ansoft.musetimusicplayer.Service.NotificationBroadcast" >
+        <receiver android:name="com.brijesh.musicplayer.Service.NotificationBroadcast" >
             <intent-filter>
-                <action android:name="com.ansoft.musetimusicplayer.delete" />
-                <action android:name="com.ansoft.musetimusicplayer.pause" />
-                <action android:name="com.ansoft.musetimusicplayer.next" />
-                <action android:name="com.ansoft.musetimusicplayer.play" />
-                <action android:name="com.ansoft.musetimusicplayer.previous" />
+                <action android:name="com.brijesh.musicplayer.delete" />
+                <action android:name="com.brijesh.musicplayer.pause" />
+                <action android:name="com.brijesh.musicplayer.next" />
+                <action android:name="com.brijesh.musicplayer.play" />
+                <action android:name="com.brijesh.musicplayer.previous" />
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>

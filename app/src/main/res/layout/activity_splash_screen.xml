@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/splash_bg"
-    tools:context="com.ansoft.musetimusicplayer.SplashScreenActivity">
+    tools:context="com.brijesh.musicplayer.SplashScreenActivity">
 
     <ImageView
         android:layout_width="wrap_content"

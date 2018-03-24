@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:fitsSystemWindows="true"
-    tools:context="com.ansoft.musetimusicplayer.SongListActivity">
+    tools:context="com.brijesh.musicplayer.SongListActivity">
 
 
-    <com.ansoft.musetimusicplayer.Util.widget.PlayerPanel.PlayerPanelView
+    <com.brijesh.musicplayer.Util.widget.PlayerPanel.PlayerPanelView
         android:id="@+id/sliding_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,7 +18,7 @@
         app:shadowheight="0dp">
 
 
-        <com.ansoft.musetimusicplayer.Util.widget.IndexableListView
+        <com.brijesh.musicplayer.Util.widget.IndexableListView
             android:id="@+id/list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -109,7 +109,7 @@
                     android:textSize="15sp" />
 
 
-                <com.ansoft.musetimusicplayer.Util.widget.PlayerPanel.playerview.MusicPlayerView
+                <com.brijesh.musicplayer.Util.widget.PlayerPanel.playerview.MusicPlayerView
                     android:id="@+id/mpv"
                     android:layout_width="250dp"
                     android:layout_height="250dp"
@@ -164,5 +164,5 @@
 
         </RelativeLayout>
 
-    </com.ansoft.musetimusicplayer.Util.widget.PlayerPanel.PlayerPanelView>
+    </com.brijesh.musicplayer.Util.widget.PlayerPanel.PlayerPanelView>
 </RelativeLayout>

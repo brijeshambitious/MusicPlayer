@@ -2,9 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ansoft.musetimusicplayer.Fragments.AllSongsFragment">
+    tools:context="com.brijesh.musicplayer.Fragments.AllSongsFragment">
 
-    <com.ansoft.musetimusicplayer.Util.widget.IndexableListView
+    <com.brijesh.musicplayer.Util.widget.IndexableListView
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
